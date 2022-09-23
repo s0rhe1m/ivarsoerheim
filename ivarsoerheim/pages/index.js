@@ -8,11 +8,19 @@ export default function Home() {
       <Head>
         <title>Ivar Sørheim</title>
       </Head>
+
       <main className={styles.main}>
         <h1 className={styles.title}>
-        Hello. My name is Ivar.
+          Hello. My name is Ivar
         </h1>
       </main>
+
+      <footer className={styles.footer}>
+      <ul>
+    <li><a href="https://www.linkedin.com/in/ivar-lj-s-b8739457/">Linkedin</a></li>
+    <li><a href="https://github.com/s0rhe1m">Github</a></li>
+      </ul> 
+      </footer>
     </div>
   )
 }
