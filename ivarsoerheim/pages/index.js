@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+      <link rel="shortcut icon" href="/static/favicon.ico" />
         <title>Ivar Sørheim</title>
       </Head>
 
